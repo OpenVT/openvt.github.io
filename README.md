@@ -35,7 +35,7 @@ Rafael R. Bravo, Etienne Baratchart, Jeffrey West, Ryan O. Schenck, Anna K. Mill
 * Monolayer growth
 * Wound healing without migration
 * Chemotaxis across the domain; one cell
-* Cell sorting
+* [Cell sorting](./ref_models/cellsort/cellsort.md)
 * Angiogenesis
 
 ## Presentations and Workshops
