@@ -41,7 +41,7 @@ Rafael R. Bravo, Etienne Baratchart, Jeffrey West, Ryan O. Schenck, Anna K. Mill
 ## Presentations and Workshops
 
 * [Simulating tissue dynamics with cellular Potts models](https://www.lorentzcenter.nl/simulating-tissue-dynamics-with-cellular-potts-models.html)
-* NSF I-Corps: Jan-Feb 2024 (virtual training for POSE Awards)
+* NSF I-Corps: Jan-Feb 2024 (virtual training for POSE Awardees)
 * "Computational Modeling in Biology" Network (COMBINE) - [Harmony workshop](https://co.mbine.org/author/harmony-2024/) - April 8, 2024
 * [IMAG Multiscale Modeling and Viral Pandemics WG](https://github.com/OpenVT/OpenVT-Edu/blob/main/slides/OpenVT-IMAG-WG-May2-2024.pdf) - May 2, 2024
 * ...
