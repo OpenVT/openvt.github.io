@@ -1,7 +1,5 @@
 # Open Virtual Tissues (OpenVT)
 
-## Background
-
 OpenVT seeks to build an engaged community of researchers - modelers and software engineers who use and develop open source multicellular modeling frameworks. These frameworks allow virtual experiments (simulations) of cell behaviors within tissues and organs. The goals of OpenVT are to:
 
 * educate the community of modelers on the features that each framework offers, via
