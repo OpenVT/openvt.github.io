@@ -32,7 +32,7 @@ Rafael R. Bravo, Etienne Baratchart, Jeffrey West, Ryan O. Schenck, Anna K. Mill
 ## Reference Models
 
 * Persistent Random Walk / Biased Persistent Random Walk
-* Monolayer growth
+* [Monolayer growth](./ref_models/monolayer/monolayer.md)
 * Wound healing without migration
 * Chemotaxis across the domain; one cell
 * [Cell sorting](./ref_models/cellsort/cellsort.md)
