@@ -3,40 +3,40 @@
 ### Cell sorting on small models using PhysiCell
 <table>
   <tr>
-    <td> <img src="./csort_top_bot_small_pc.png"></td>
+    <td> <img src="./csort_top_bot_small_pc.png" width = 360px></td>
    </tr> 
    <tr>
-     <td> <img src="./csort_checker_small_pc.png"></td>
+     <td> <img src="./csort_checker_small_pc.png" width = 360px></td>
    </tr>
    <tr>
-     <td> <img src="./csort_random_small_pc.png"></td>
+     <td> <img src="./csort_random_small_pc.png" width = 360px></td>
    </tr>
 </table>
 
 ### Cell sorting on small models using Morpheus
 <table>
   <tr>
-    <td> <img src="./csort_top_bot_small_morpheus.png"></td>
+    <td> <img src="./csort_top_bot_small_morpheus.png" width = 520px></td>
    </tr> 
    <tr>
-     <td> <img src="./csort_checker_small_morpheus.png"></td>
+     <td> <img src="./csort_checker_small_morpheus.png" width = 520px></td>
    </tr>
    <tr>
-     <td> <img src="./csort_random_small_morpheus.png"></td>
+     <td> <img src="./csort_random_small_morpheus.png" width = 520px></td>
    </tr>
 </table>
 
 ### Cell sorting on larger model using PhysiCell
+The initial cell positions are an approximation to those in the Chaste 2017 paper.
 <table>
   <tr>
-    <td> <img src="./physicell/m2017_t0.png"  alt="1" width = 360px height = 360px></td>
-    <td><img src="./physicell/m2017_1day.png" alt="2" width = 360px height = 360px></td>
+    <td> <img src="./physicell/m2017_t0.png" width = 300px></td>
+    <td><img src="./physicell/m2017_1day.png" width = 300px></td>
    </tr> 
    <tr>
-      <td><img src="./physicell/m2017_7days.png" alt="3" width = 360px height = 360px></td>
-      <td><img src="./physicell/m2017_15days.png" align="right" alt="4" width = 360px height = 360px>
-  </td>
+      <td><img src="./physicell/m2017_7days.png" width = 300px></td>
+      <td><img src="./physicell/m2017_15days.png" width = 300px></td>
   </tr>
 </table>
-Cell sorting on larger model (approximation to Chaste 2017 paper) using PhysiCell.
+
 
