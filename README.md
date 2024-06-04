@@ -1,6 +1,6 @@
 # Open Virtual Tissues (OpenVT)
 
-The main site for the OpenVT project is at [openvt.org](openvt.org).
+The main site for the OpenVT project is at [openvt.org](https://openvt.org).
 
 The web page you are currently at is intended to capture more technical progress of the OpenVT project.
 
