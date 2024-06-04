@@ -18,27 +18,28 @@ Note that we used scripts developed for the OpenVT project to convert the initia
 ### Cell sorting on small, baseline models using Morpheus
 <table>
   <tr>
-    <td> <img src="./csort_top_bot_small_morpheus.png" width = 520px></td>
+    <td> <img src="./csort_top_bot_small_morpheus.png" width = 360px></td>
    </tr> 
    <tr>
-     <td> <img src="./csort_checker_small_morpheus.png" width = 520px></td>
+     <td> <img src="./csort_checker_small_morpheus.png" width = 360px></td>
    </tr>
    <tr>
-     <td> <img src="./csort_random_small_morpheus.png" width = 520px></td>
+     <td> <img src="./csort_random_small_morpheus.png" width = 360px></td>
    </tr>
 </table>
 
 ### Cell sorting on a larger model using PhysiCell
-The initial cell positions are an approximation to those in the Chaste 2017 paper.
+The initial cell positions are an approximation to those in [Figure 2 of this Chaste 2017 paper](https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1005387.g002) from the "OS" (Overlapping Spheres) row.
 <table>
   <tr>
-    <td> <img src="./physicell/m2017_t0.png" width = 300px></td>
-    <td><img src="./physicell/m2017_1day.png" width = 300px></td>
+    <td> <img src="./physicell/m2017_t0.png" width = 200px></td>
+    <td><img src="./physicell/m2017_1day.png" width = 200px></td>
    </tr> 
    <tr>
-      <td><img src="./physicell/m2017_7days.png" width = 300px></td>
-      <td><img src="./physicell/m2017_15days.png" width = 300px></td>
+      <td><img src="./physicell/m2017_7days.png" width = 200px></td>
+      <td><img src="./physicell/m2017_15days.png" width = 200px></td>
   </tr>
 </table>
 
+<img src="./csort.gif">
 
