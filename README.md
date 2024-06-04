@@ -1,5 +1,11 @@
 # Open Virtual Tissues (OpenVT)
 
+The main site for the OpenVT project is at [openvt.org](openvt.org).
+
+The web page you are currently at is intended to capture more technical progress of the OpenVT project.
+
+## Background
+
 OpenVT seeks to build an engaged community of researchers - modelers and software engineers who use and develop open source multicellular modeling frameworks. These frameworks allow virtual experiments (simulations) of cell behaviors within tissues and organs. The goals of OpenVT are to:
 
 * educate the community of modelers on the features that each framework offers, via
@@ -25,7 +31,7 @@ Some relevant publications that have compared multicellular modeling frameworks 
 * Hybrid Automata Library: A flexible platform for hybrid modeling with real-time visualization (2020).
 Rafael R. Bravo, Etienne Baratchart, Jeffrey West, Ryan O. Schenck, Anna K. Miller, Jill Gallaher, Chandler D. Gatenbee, David Basanta, Mark Robertson-Tessi, Alexander R. A. Anderson. [https://doi.org/10.1371/journal.pcbi.1007635](https://doi.org/10.1371/journal.pcbi.1007635)
 
-## Living spreadsheet of features
+## Living spreadsheet of frameworks' features
 
 ## Publications that highlight frameworks
 
