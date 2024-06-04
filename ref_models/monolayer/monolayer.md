@@ -8,3 +8,8 @@
    </tr>
 </table>
 
+<table>
+  <tr>
+    <td> <img src="./monolayer.gif"></td>
+   </tr>
+</table>
