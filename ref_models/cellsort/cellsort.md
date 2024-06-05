@@ -58,7 +58,7 @@ Results with no rules.
 
 
 We also provide an [analysis script](https://github.com/OpenVT/playground/blob/main/PhysiCell/models/ctypes_graph.py) which determines the number of clusters (connected components of a graph) of each cell type:
-```
+<pre>
 (base) M1P~/git/OpenVT/playground/PhysiCell/models$ python ctypes_graph.py output_csort_ics_2017
 # args= 2
 out_dir=  output_csort_ics_2017
@@ -74,7 +74,7 @@ len(id_ctype)=  207
 len(id_ctype)=  194
 missing (isolated) cell ids= {395}
 # of clusters for cell type 1 = 6
-```
+</pre>
 
 <img src="./csort.gif">
 
