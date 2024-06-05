@@ -33,8 +33,6 @@ Rafael R. Bravo, Etienne Baratchart, Jeffrey West, Ryan O. Schenck, Anna K. Mill
 
 ## Living spreadsheet of frameworks' features
 
-## Publications that highlight frameworks
-
 ## Reference Models
 
 * Persistent Random Walk / Biased Persistent Random Walk
