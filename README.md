@@ -2,7 +2,7 @@
 
 The main site for the OpenVT project is at [openvt.org](https://openvt.org).
 
-The web page you are currently at is intended to capture more technical progress of the OpenVT project.
+This page ([openvt.github.io](https://openvt.github.io)) is intended to capture more timely technical progress of the OpenVT project.
 
 ## Background
 
