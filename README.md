@@ -35,7 +35,7 @@ Rafael R. Bravo, Etienne Baratchart, Jeffrey West, Ryan O. Schenck, Anna K. Mill
 
 [Draft table](./features/features.md)
 
-[Features schema](https://github.com/OpenVT/OpenVTschema/docs/instances.html)
+[Features table via schema](./features/instances.html)
 
 ## Reference Models
 
