@@ -33,6 +33,10 @@ Rafael R. Bravo, Etienne Baratchart, Jeffrey West, Ryan O. Schenck, Anna K. Mill
 
 ## Living spreadsheet of frameworks' features
 
+[Draft table](./features/features.md)
+
+[Features schema](https://github.com/OpenVT/OpenVTschema/docs/instances.html)
+
 ## Reference Models
 
 * Persistent Random Walk / Biased Persistent Random Walk
