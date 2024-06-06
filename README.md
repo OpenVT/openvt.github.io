@@ -35,6 +35,8 @@ Rafael R. Bravo, Etienne Baratchart, Jeffrey West, Ryan O. Schenck, Anna K. Mill
 
 [Draft table](./features/features.md)
 
+[Features schema](https://openvt.github.io/OpenVTschema/instances.html)
+
 ## Reference Models
 
 * Persistent Random Walk / Biased Persistent Random Walk
