@@ -23,7 +23,7 @@
     <th>MPI</th>
   </tr>
   <tr>
-    <td>CompuCell3D Futterkiste</td>
+    <td>CompuCell3D</td>
   </tr>
   <tr>
     <td>PhysiCell</td>
