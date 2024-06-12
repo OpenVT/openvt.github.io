@@ -38,11 +38,7 @@ modeling frameworks and their features. We encourage the community of developers
 and users to notify us of corrections and updates to these tables. The easiest way
 to do so is by updating a text-based schema associated with each framework that is stored in GitHub. Details coming in the near future.
 
-<<<<<<< HEAD
 [Minimal list of frameworks](./features/frameworks.html)
-=======
-[Features table via schema](./features/instances.html)
->>>>>>> afed73e212221633c408b7d544bfc5d336a1fbfe
 
 ## Reference Models
 
