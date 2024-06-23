@@ -33,12 +33,15 @@ Rafael R. Bravo, Etienne Baratchart, Jeffrey West, Ryan O. Schenck, Anna K. Mill
 
 ## Frameworks and their features
 
-We will maintain "living" tables that list openly accessible multicellular
-modeling frameworks and their features. We encourage the community of developers
-and users to notify us of corrections and updates to these tables. The easiest way
-to do so is by updating a text-based schema associated with each framework that is stored in GitHub. Details coming in the near future.
+One goal of the OpenVT project is to provide text-based schemas that the community can fill in
+and maintain that describe features of each modeling framework. These schemas are
+accessible on GitHub and updating them will follow the usual GitHub workflow 
+using Pull Requests (PRs). If you are taking some responsibility for providing/updating a framework's
+features and are unfamiliar with GitHub PRs, please contact us for assistance. 
 
-[Interactively search for features in frameworks](https://openvt.github.io/OpenVTschema/search.html)
+[Current list of frameworks](https://openvt.github.io/OpenVTschema/instances_table.html)
+[Schema details](https://openvt.github.io/OpenVTschema/index.html)
+[Interactive search of features](https://openvt.github.io/OpenVTschema/search.html) - Prototype Demo only!
 
 ## Reference Models
 
