@@ -14,5 +14,5 @@ bias [0,1], where 0=random movement; 1=perfectly horizontal movement.
    </tr> 
 </table>
 
-img src="./migration_params_studio.png" width = 450px></td>
+<img src="./migration_params_studio.png" width = 450px>
 
