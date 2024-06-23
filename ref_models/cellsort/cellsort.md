@@ -5,19 +5,19 @@ Note that we used scripts developed for the OpenVT project to convert the initia
 ### Cell sorting on small, baseline models
 <table>
   <tr>
-    <td>--------  PhysiCell  ----------</td><td>--------  Morpheus  ----------</td>
+    <td>----------------  PhysiCell  ----------</td><td>----------------  Morpheus  ----------</td>
    </tr> 
   <tr>
     <td> <img src="./csort_top_bot_small_pc.png" width = 360px></td>
-    <td> <img src="./csort_top_bot_small_morpheus.png" width = 360px></td>
+    <td> <img src="./csort_top_bot_small_morpheus.png" width = 420px></td>
    </tr> 
    <tr>
      <td> <img src="./csort_checker_small_pc.png" width = 360px></td>
-     <td> <img src="./csort_checker_small_morpheus.png" width = 360px></td>
+     <td> <img src="./csort_checker_small_morpheus.png" width = 420px></td>
    </tr>
    <tr>
      <td> <img src="./csort_random_small_pc.png" width = 360px></td>
-     <td> <img src="./csort_random_small_morpheus.png" width = 360px></td>
+     <td> <img src="./csort_random_small_morpheus.png" width = 420px></td>
    </tr>
 </table>
 
