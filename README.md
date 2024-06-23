@@ -45,7 +45,7 @@ features and are unfamiliar with GitHub PRs, please contact us for assistance.
 
 ## Reference Models
 
-* Persistent Random Walk / Biased Persistent Random Walk
+* [Persistent Random Walk / Biased Motility](./ref_models/biased_motility/biased_motility.md)
 * [Monolayer growth](./ref_models/monolayer/monolayer.md)
 * Wound healing without migration
 * Chemotaxis across the domain; one cell
