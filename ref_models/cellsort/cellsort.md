@@ -2,28 +2,21 @@
 
 Note that we used scripts developed for the OpenVT project to convert the initial conditions (ICs) of cells from one framework (PhysiCell) into another (Morpheus). This enables us to start simulations with the same ICs in order to check qualitative reproducibility of results.
 
-### Cell sorting on small, baseline models using PhysiCell
+### Cell sorting on small, baseline models
 <table>
+  <tr>
+    <td>--------  PhysiCell  ----------</td><td>--------  Morpheus  ----------</td>
+   </tr> 
   <tr>
     <td> <img src="./csort_top_bot_small_pc.png" width = 360px></td>
-   </tr> 
-   <tr>
-     <td> <img src="./csort_checker_small_pc.png" width = 360px></td>
-   </tr>
-   <tr>
-     <td> <img src="./csort_random_small_pc.png" width = 360px></td>
-   </tr>
-</table>
-
-### Cell sorting on small, baseline models using Morpheus
-<table>
-  <tr>
     <td> <img src="./csort_top_bot_small_morpheus.png" width = 360px></td>
    </tr> 
    <tr>
+     <td> <img src="./csort_checker_small_pc.png" width = 360px></td>
      <td> <img src="./csort_checker_small_morpheus.png" width = 360px></td>
    </tr>
    <tr>
+     <td> <img src="./csort_random_small_pc.png" width = 360px></td>
      <td> <img src="./csort_random_small_morpheus.png" width = 360px></td>
    </tr>
 </table>
