@@ -16,5 +16,5 @@ bias [0,1], where 0=random movement; 1=perfectly horizontal movement.
 
 <img src="./migration_params_studio.png" width = 650px>
 <br>
-The Motility parameters as shown in PhysiCell Studio. However, for the replicates shown above, the Studio was not used; rather, a custom main.cpp and custom.cpp were used to generates the cell paths, from the command line.
+The Motility parameters as shown in PhysiCell Studio. However, for the replicates shown above, the Studio was not used; rather, a custom `main.cpp` and `custom.cpp` were used to generate the cell paths, from the command line.
 
