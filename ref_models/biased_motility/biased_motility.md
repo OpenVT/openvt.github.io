@@ -5,6 +5,8 @@ bias [0,1], where 0=random movement; 1=perfectly horizontal movement.
 ### PhysiCell biased motility
 
 * Showing 30 replicates on each frame. Stochasticity of replicates is due to randomly seeding the PRNG.
+* PhysiCell has 3 parameters that are key to defining a cell type's motility: speed, persistence time, and migration bias.
+* The `migration_bias_direction` (motility vector) is hard-coded as (1,0,0) in C++ for this model
  
 <table>
   <tr>
@@ -12,4 +14,5 @@ bias [0,1], where 0=random movement; 1=perfectly horizontal movement.
    </tr> 
 </table>
 
+img src="./migration_params_studio.png" width = 450px></td>
 
