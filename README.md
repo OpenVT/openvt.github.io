@@ -18,7 +18,7 @@ OpenVT seeks to build an engaged community of researchers - modelers and softwar
 * share ideas or functionality between frameworks
 * seek new funding opportunities related to this overall project
 
-## Articles comparing frameworks
+## Papers comparing frameworks
 
 Some relevant publications that have compared multicellular modeling frameworks include: 
 
@@ -38,7 +38,7 @@ modeling frameworks and their features. We encourage the community of developers
 and users to notify us of corrections and updates to these tables. The easiest way
 to do so is by updating a text-based schema associated with each framework that is stored in GitHub. Details coming in the near future.
 
-[Minimal list of frameworks](./features/frameworks.html)
+[Interactively search for features in frameworks](https://openvt.github.io/OpenVTschema/search.html)
 
 ## Reference Models
 
