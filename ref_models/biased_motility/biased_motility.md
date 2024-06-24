@@ -17,7 +17,7 @@ bias [0,1], where 0=random movement; 1=perfectly horizontal movement.
 </table>
 
 * The following figure shows how changing just the persistence time affects results. Here, we leave
-the other two parameters fixed: speed= 1 and bias= 0.7
+two parameters fixed: speed= 1 and bias= 0.7 (and motility vector still (1,0,0)), but vary persistence time: 0, 1, 2, and 5. The same PRNG seed is used for each simulation.
 
 <img src="./motile_1cell.png" width = 650px>
 <br>
