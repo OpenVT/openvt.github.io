@@ -35,7 +35,7 @@ Rafael R. Bravo, Etienne Baratchart, Jeffrey West, Ryan O. Schenck, Anna K. Mill
 
 One goal of the OpenVT project is to provide text-based schemas that the community can fill in
 and maintain that describe features of each modeling framework. These schemas are
-accessible on GitHub and updating them will follow the usual GitHub workflow 
+[accessible on GitHub](https://github.com/OpenVT/OpenVTschema/tree/main/simulator_schemas) and updating them will follow the usual GitHub workflow 
 using Pull Requests (PRs). If you are taking some responsibility for providing/updating a framework's
 features and are unfamiliar with GitHub PRs, please contact us for assistance. 
 
