@@ -58,7 +58,7 @@ features and are unfamiliar with GitHub PRs, please contact us for assistance.
 * NSF I-Corps: Jan-Feb 2024 (virtual training for POSE Awardees)
 * "Computational Modeling in Biology" Network (COMBINE) - [Harmony workshop](https://co.mbine.org/author/harmony-2024/) - April 8, 2024
 * [IMAG Multiscale Modeling and Viral Pandemics WG](https://github.com/OpenVT/OpenVT-Edu/blob/main/slides/OpenVT-IMAG-WG-May2-2024.pdf) - May 2, 2024
-* ...
+* SMB 2024 - [OpenVT workshop](https://smb2024.org/workshop.asp)
   
 ## Funding
 
