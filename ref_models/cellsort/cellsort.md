@@ -1,6 +1,7 @@
 ## Cell sorting reference model
 
-*Brief description*: cell sorting using differential cell adhesion is a well known model made popular in (citations). Here, we demonstrate results using both PhysiCell and Morpheus. There are different model sizes and initial conditions of cells. First, we show results using a small model size of 51 cells (and two cell types) and three different initial conditions: 1) split top-bottom, 2) checkerboard, and 3) random. Then we show a larger model size of 401 cells (two cell types) arranged randomly that approximate the initial conditions for the "Ovelapping Spheres" simulation shown in Figure X of citation (Chaste 2017).
+*Brief description*: cell sorting using differential cell adhesion is a well known model made popular in (citations). Here, we demonstrate results using both PhysiCell and Morpheus. There are different model sizes and initial conditions of cells. First, we show results using a small model size of 51 cells (and two cell types) and three different initial conditions: 1) split top-bottom, 2) checkerboard, and 3) random. 
+Then we show a larger model size of 401 cells (two cell types) with a random arrangement.
 
 Note that we used scripts developed for the OpenVT project to convert the initial conditions (ICs) of cells from one framework (PhysiCell) into another (Morpheus). This enables us to start simulations with the same ICs in order to check qualitative reproducibility of results.
 
