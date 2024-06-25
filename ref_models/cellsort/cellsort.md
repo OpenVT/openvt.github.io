@@ -52,7 +52,7 @@ Results with no rules.
 <p>
 
 
-We also provide an <a href=https://raw.githubusercontent.com/OpenVT/playground/main/PhysiCell/models/ctypes_graph.py>analysis script</a>
+We also provide an analysis script
 that determines the number of clusters (connected components of a graph) of each cell type:
 <pre>
 (base) M1P~/git/OpenVT/playground/PhysiCell/models$ python ctypes_graph.py output_csort_ics_2017
