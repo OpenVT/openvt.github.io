@@ -374,6 +374,7 @@ body {
 .contact-card a:hover {
   background-color: #003ecc;
 }
+
 /* Responsive Table Styling */
 .table-container {
   overflow-x: auto;
