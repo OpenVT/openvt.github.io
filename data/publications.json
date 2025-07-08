@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Exploring Machine Learning Interfaces",
+      "author": "Doe, J. and Smith, A.",
+      "year": "2024",
+      "journal": "Journal of HCI Research",
+      "doi": "10.1234/jhci.2024.00123",
+      "tags": ["machine learning", "hci"]
+    },
+    {
+      "title": "Ethical AI: Design Challenges",
+      "author": "Lee, K.",
+      "year": "2023",
+      "journal": "Ethics in Computing",
+      "doi": "",
+      "tags": ["ethics", "ai"]
+    },
+    {
+      "title": "A Study of Interactive Visualization",
+      "author": "Patel, R. and Garcia, L.",
+      "year": "2022",
+      "journal": "Data Vis Journal",
+      "doi": "10.5678/dvj.2022.00456",
+      "tags": ["visualization", "ui"]
+    }
+] 

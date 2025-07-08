@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | OpenVT</title>
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main>
+    <h4 style="text-align: center;">Reference Models Working Group</h4>
+    <p class="custom-list-p">The Reference Models Working Group was established to discuss an initial small set of reference models that would be implemented in several multicellular modeling framework.</p>
+    <p class="custom-list-p">The goal is to compare simulation results of various multicellular modeling frameworks, and to provide example models for defining model schemas, which is discussed separately in the Framework Capabilities Working Group.</p>
+    <p class="custom-list-p">The Reference Models currently under discussion include:</p>
+    <ul class="custom-list">
+      <li>Single cell migration (also known as either persistent random walk or biased motility)</li>
+      <li>Single cell Chemotaxis across the domain; one cell</li>
+      <li>Monolayer growth</li>
+      <li>Cell sorting</li>
+      <li>Angiogenesis</li>
+    </ul>
+
+      <p class="custom-list-p">Single cell migration (also known as either persistent random walk or biased motility)</p>
+      <p>A single cell, starting at the far left of the domain, has a force applied to it in the positive horizontal direction, causing motility. However, the force (and motion) is stochastic with a bias, [0,1] (0=random, 1=perfectly positive horizontal). There is no signaling.</p>
+      <section class="image-gallery">
+        <figure>
+        <img src="../../images/ref-models-wg-page-images/pc_migration_single_path_bias0_7.png" alt="bias 0.7 motion" />
+        <figcaption>
+        <p>This plot shows the path of a single cell with a bias of 0.7 motion.</p>
+        </figcaption>
+        </figure>
+        <figure>
+          <img src="../../images/ref-models-wg-page-images/pc_migration_bias0_2.png" alt="bias 0.2 motion" />
+          <figcaption>
+          <p>This plot shows a simulation of replicates of a single cell with a bias of 0.2 motion for each path.</p>
+          </figcaption>
+          </figure>
+          <figure>
+            <img src="../../images/ref-models-wg-page-images/pc_migration_bias0_5.png" alt="bias 0.5 motion" />
+            <figcaption>
+            <p>This plot shows a simulation of replicates of a single cell with a bias of 0.5 motion for each path.</p>
+            </figcaption>
+            </figure>
+      </section>
+      
+  
+      <p class="custom-list-p">Single cell chemotaxis</p>
+      <p>Single cell in fixed Linear, Half-Normal, and Exponential Gradients</p>
+      <section class="image-gallery">
+        <figure>
+        <img src="../../images/ref-models-wg-page-images/chemotaxis_cc3d_substrate.png" alt="" />
+        <figcaption>
+        <p></p>
+        </figcaption>
+        </figure>
+        <figure>
+          <img src="../../images/ref-models-wg-page-images/chemotaxis_cc3d_COM.png" alt="" />
+          <figcaption>
+          <p></p>
+          </figcaption>
+          </figure>
+      </section>
+
+      <p class="custom-list-p">Monolayer growth</p>
+      <p>Starting with a single cell, cell division occurs and subsequent daughter cells simply push away from each other with the default cell-cell repulsion. There is no cell-cell adhesion nor any signaling.</p>
+      <section class="image-gallery">
+        <figure>
+        <img src="../../images/ref-models-wg-page-images/chaste_monolayer.png" alt="" />
+        <figcaption>
+        <p><p>One experimental paper used for reference, especially for the monolayer growth plot, is <a href="https://doi.org/10.1016/S0006-3495(03)74715-8">Bru, et al (2003)</a></p></p>
+        </figcaption>
+        </figure>
+      </section>
+
+      <p class="custom-list-p">Cell sorting</p>
+      <p>Given a random assortment of two cell types, they mix (just random motility, no signaling) and sort into clusters of the same cell type via differential adhesion, i.e., cells of the same type adhere to each other more than cells of opposite types.</p>
+      <section class="image-gallery">
+        <figure>
+        <img src="../../images/ref-models-wg-page-images/chaste_cellsorting_2017.png" alt="cell sorting" />
+        <figcaption>
+        <p>From <a href="https://doi.org/10.1371/journal.pcbi.1005387">Osborne, et al (2017)</a></p>
+        </figcaption>
+        </figure>
+      </section>
+
+      <p class="custom-list-p">Angiogenesis</p>
+      <p>This model assumes that cell elongation is a key factor in the formation of stable vascular networks <a href="https://doi.org/10.1016/j.ydbio.2005.10.003">(Merks et al. 2006)</a></p>
+      <section class="image-gallery">
+        <figure>
+        <img src="../../images/ref-models-wg-page-images/angiogen_CC3D.png" alt="angiogenesis" />
+        <figcaption>
+        <p></p>
+        </figcaption>
+        </figure>
+      </section>
+
+      <!--add more here
+      <p class="custom-list-p"></p>
+      <p></p>
+      <section class="image-gallery">
+        <figure>
+        <img src="../../images/ref-models-wg-page-images/pc_migration_single_path_bias0_7.png" alt="bias 0.7 motion" />
+        <figcaption>
+        <p>T</p>
+        </figcaption>
+        </figure>
+        <figure>
+          <img src="../../images/ref-models-wg-page-images/pc_migration_bias0_2.png" alt="bias 0.2 motion" />
+          <figcaption>
+          <p></p>
+          </figcaption>
+          </figure>
+          <figure>
+            <img src="../../images/ref-models-wg-page-images/pc_migration_bias0_5.png" alt="bias 0.5 motion" />
+            <figcaption>
+            <p></p>
+            </figcaption>
+            </figure>
+      </section>-->
+
+  </main>
+  <div id="footer"></div>
+  <script src="../../main.js"></script>
+</body>
+</html>

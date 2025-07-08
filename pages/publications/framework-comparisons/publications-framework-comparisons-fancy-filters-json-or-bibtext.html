@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | OpenVT</title>
+  <link rel="stylesheet" href="../../../style.css" />
+</head>
+<body>
+  <div id="navbar"></div>
+
+
+  <main>
+    <h2 style="text-align: center;">Publications Comparing Multicellular Frameworks</h2>
+    <section class="publications">
+      <h2>Publications</h2>
+  
+      <!-- Filters -->
+    <div class="pub-filters">
+      <select id="filter-year">
+        <option value="all">All Years</option>
+      </select>
+
+      <select id="filter-author">
+        <option value="all">All Authors</option>
+      </select>
+
+      <select id="filter-tag">
+        <option value="all">All Tags</option>
+      </select>
+
+      <select id="sort-by">
+        <option value="year-desc">Sort by Year (Newest)</option>
+        <option value="year-asc">Sort by Year (Oldest)</option>
+        <option value="title-asc">Sort by Title (A-Z)</option>
+      </select>
+
+      <button id="toggle-style">Switch to MLA Style</button>
+    </div>
+
+    <!-- Load method -->
+    <div class="pub-source-toggle">
+      <button id="load-json">Load from JSON</button>
+      <button id="load-bibtex">Load from BibTeX</button>
+    </div>
+
+    <!-- Publication list -->
+    <ul id="publication-list" class="publication-list apa"></ul>
+  </section>
+
+  <script src="/js/publications.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bibtex-parse-js@1.0.0/dist/bibtexParse.min.js"></script>
+    
+  </main>
+  <div id="footer"></div>
+  <script src="../../../main.js"></script>
+</body>
+</html>

@@ -1,0 +1,523 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  /*Resize the browser window to see how the font size scales.*/
+  p {font: size 2em;
+  }
+  h1 {
+    font: size 6em;
+  }
+  h2 {
+    font: size 5em;
+  }
+  h3 {
+    font-size: 4em;
+  }
+  h4 {
+    font-size: 3em;
+  }
+  .custom-list-p {
+    text-align: left;
+    font-size:1.5em;
+  }
+  .custom-list li {
+    list-style-type: square;
+    color: black;
+    font-size: 1em;
+    text-align: left;
+  }  
+}
+.navbar {
+  display:flex;
+  justify-content: space-between;
+  align-items: normal;
+  background-color:#191970;
+  padding: 10px 20px;
+  color: white;
+  flex-wrap: wrap;
+}
+.nav-links.mobile {
+  display: none;
+  flex-direction: column;
+}
+
+.nav-links.mobile.active {
+  display: flex;
+}
+
+.nav-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+.nav-links li {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  padding: 10px;
+  list-style: none;
+  border-radius: 4px;
+  min-width: 150px;
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 5px 10px;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  text-align: left;
+  background-color: rgb(28, 113, 153);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/*.logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-left: 10px;
+}*/
+.logo img {
+  height: auto;
+  width: 100%;
+  max-width: 160px; /* Controls largest size */
+  object-fit: contain;
+}
+
+/* Optional: constrain logo area on small screens */
+.logo {
+  max-width: 160px;
+  padding: 0.5rem;
+}
+
+/* Adjust max-width at breakpoints if needed */
+@media (max-width: 768px) {
+  .logo {
+    max-width: 120px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .dropdown-menu {
+    position: static;
+    background-color: transparent;
+    padding-left: 20px;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: none;
+    background-color: rgb(127, 4, 115)
+  }
+
+  .dropdown.active .dropdown-menu {
+    display: block;
+  }
+}
+.responsive-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain; /* Fits the full image inside the box */
+  background-color: white; /* Optional: adds padding space around image */
+  padding: 4px;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.03);
+}
+
+/* existing styles... add this below */
+
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+/* Mobile styles */
+@media (max-width: 768px){
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #222;
+    padding: 10px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: inline-block;
+  }
+
+  .nav-right {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
+.research-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+.group-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.group-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.group-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.group-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.group-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.group-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #191970;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.group-card a:hover {
+  background-color: #003ecc;
+}
+.activity-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+.activity-card {
+  background-color: #dce8f6;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.activity-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.activity-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.activity-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.activity-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #191970;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.activity-card a:hover {
+  background-color: #003ecc;
+}
+.contact-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+.contact-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card img {
+  width: 100%;
+  height: min-content;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.contact-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.contact-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #191970;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.contact-card a:hover {
+  background-color: #003ecc;
+}
+/* Responsive Table Styling */
+.table-container {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px; /* forces scroll on small screens if needed */
+  background-color: white;
+  border-radius: 8px;
+  overflow-x: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.responsive-table th,
+.responsive-table td {
+  padding: 1rem;
+  text-align: left;
+  border: 1px solid black; /* this makes both column and row borders; replace with row only lines if desigred*/
+  /*border-bottom: 1px solid black; if only rows have lines*/
+}
+
+.responsive-table thead {
+  background-color: #191970;
+  font-weight: bold;
+  color: white;
+}
+
+.responsive-table a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.responsive-table a:hover {
+  text-decoration: underline;
+}
+/*====publications search list section==== */
+.entry {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1em;
+  margin-bottom: 1.5em;
+}
+
+
+/* ===== Publications Section ===== */
+/* === style.css additions for publications === */
+
+.publications {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.pub-filters,
+.pub-source-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.pub-filters select,
+.pub-source-toggle button,
+#toggle-style {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background: #f0f0f0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.pub-filters select:focus,
+button:focus {
+  outline: 2px solid #007BFF;
+}
+
+.publication-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.publication-list li {
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  border-left: 4px solid #ccc;
+  background: #f9f9f9;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.publication-list.apa .author {
+  font-weight: bold;
+}
+
+.publication-list.apa .title {
+  font-style: italic;
+}
+
+.publication-list.mla .title {
+  font-style: italic;
+  quotes: '"' '"';
+}
+
+.publication-list.mla .journal {
+  font-style: normal;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  .pub-filters,
+  .pub-source-toggle {
+    flex-direction: column;
+  }
+
+  .pub-filters select,
+  .pub-source-toggle button,
+  #toggle-style {
+    width: 100%;
+  }
+}
+
+/* Optional: APA vs MLA background color toggle */
+.publication-list.apa li {
+  border-left-color: #007BFF;
+}
+
+.publication-list.mla li {
+  border-left-color: #28a745;
+}
+
+.pub-list-json-search
+    .entry { margin-bottom: 1em; }
+    #search { margin-bottom: 1em; width: 100%; padding: 0.5em; font-size: 1em; }
+
+/* Footer styles */
+.site-footer {
+  text-align: center;
+  background-color: #191970;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}

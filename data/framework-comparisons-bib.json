@@ -1,0 +1,149 @@
+[
+	{
+		"id": "http://zotero.org/users/5509484/items/VJZVL9D4",
+		"type": "article-journal",
+		"abstract": "Author summary In this paper we introduce the Hybrid Automata Library (HAL) with the purpose of simplifying the implementation and sharing of hybrid models for use in mathematical oncology. Hybrid modeling is used in oncology to create spatial models of tissue, typically by modeling cells using agent-based techniques, and by modeling diffusible chemicals using partial differential equations (PDEs). HAL’s key components are designed to run agent-based models, PDEs, and visualization. The components are standardized and are completely decoupled, so models can be built with any combination of them. We first explore the philosophy behind HAL, then summarize the components. Lastly we demonstrate how the components work together with an example of a hybrid model, and a walk-through of the code used to construct it. HAL is open-source and will produce identical results on any machine that supports Java 8 and above, making it highly portable. We recommend HAL to modelers interested in spatial dynamics, even those outside of mathematical oncology, as the components are general enough to facilitate a variety of model types. A community page that provides a download link and online documentation can be found at https://halloworld.org.",
+		"container-title": "PLOS Computational Biology",
+		"DOI": "10.1371/journal.pcbi.1007635",
+		"issue": "3",
+		"journalAbbreviation": "PLOS Computational Biology",
+		"note": "publisher: Public Library of Science",
+		"page": "e1007635",
+		"title": "Hybrid Automata Library: A flexible platform for hybrid modeling with real-time visualization",
+		"URL": "https://doi.org/10.1371/journal.pcbi.1007635",
+		"volume": "16",
+		"author": [
+			{
+				"family": "Bravo",
+				"given": "Rafael R."
+			},
+			{
+				"family": "Baratchart",
+				"given": "Etienne"
+			},
+			{
+				"family": "West",
+				"given": "Jeffrey"
+			},
+			{
+				"family": "Schenck",
+				"given": "Ryan O."
+			},
+			{
+				"family": "Miller",
+				"given": "Anna K."
+			},
+			{
+				"family": "Gallaher",
+				"given": "Jill"
+			},
+			{
+				"family": "Gatenbee",
+				"given": "Chandler D."
+			},
+			{
+				"family": "Basanta",
+				"given": "David"
+			},
+			{
+				"family": "Robertson-Tessi",
+				"given": "Mark"
+			},
+			{
+				"family": "Anderson",
+				"given": "Alexander R. A."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/5509484/items/JG6I8X9B",
+		"type": "article-journal",
+		"abstract": "The coordinated behaviour of populations of cells plays a central role in tissue growth and renewal. Cells react to their microenvironment by modulating processes  such as movement, growth and proliferation, and signalling. Alongside  experimental studies, computational models offer a useful means by which to  investigate these processes. To this end a variety of cell-based modelling  approaches have been developed, ranging from lattice-based cellular automata to  lattice-free models that treat cells as point-like particles or extended shapes.  However, it remains unclear how these approaches compare when applied to the same  biological problem, and what differences in behaviour are due to different model  assumptions and abstractions. Here, we exploit the availability of an  implementation of five popular cell-based modelling approaches within a  consistent computational framework, Chaste (http://www.cs.ox.ac.uk/chaste). This  framework allows one to easily change constitutive assumptions within these  models. In each case we provide full details of all technical aspects of our  model implementations. We compare model implementations using four case studies,  chosen to reflect the key cellular processes of proliferation, adhesion, and  short- and long-range signalling. These case studies demonstrate the  applicability of each model and provide a guide for model usage.",
+		"container-title": "PLoS computational biology",
+		"DOI": "10.1371/journal.pcbi.1005387",
+		"ISSN": "1553-7358 1553-734X",
+		"issue": "2",
+		"journalAbbreviation": "PLoS Comput Biol",
+		"language": "eng",
+		"note": "publisher-place: United States\nPMID: 28192427 \nPMCID: PMC5330541",
+		"page": "e1005387",
+		"title": "Comparing individual-based approaches to modelling the self-organization of multicellular tissues.",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Osborne",
+				"given": "James M."
+			},
+			{
+				"family": "Fletcher",
+				"given": "Alexander G."
+			},
+			{
+				"family": "Pitt-Francis",
+				"given": "Joe M."
+			},
+			{
+				"family": "Maini",
+				"given": "Philip K."
+			},
+			{
+				"family": "Gavaghan",
+				"given": "David J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/5509484/items/IX8BKL4W",
+		"type": "article-journal",
+		"abstract": "Cancer biology involves complex, dynamic interactions between cancer cells and their tissue microenvironments. Single-cell effects are critical drivers of clinical progression. Chemical and mechanical communication between tumor and stromal cells can co-opt normal physiologic processes to promote growth and invasion. Cancer cell heterogeneity increases cancer’s ability to test strategies to adapt to microenvironmental stresses. Hypoxia and treatment can select for cancer stem cells and drive invasion and resistance. Cell-based computational models (also known as discrete models, agent-based models, or individual-based models) simulate individual cells as they interact in virtual tissues, which allows us to explore how single-cell behaviors lead to the dynamics we observe and work to control in cancer systems. In this review, we introduce the broad range of techniques available for cell-based computational modeling. The approaches can range from highly detailed models of just a few cells and their morphologies to millions of simpler cells in three-dimensional tissues. Modeling individual cells allows us to directly translate biologic observations into simulation rules. In many cases, individual cell agents include molecular-scale models. Most models also simulate the transport of oxygen, drugs, and growth factors, which allow us to link cancer development to microenvironmental conditions. We illustrate these methods with examples drawn from cancer hypoxia, angiogenesis, invasion, stem cells, and immunosurveillance. An ecosystem of interoperable cell-based simulation tools is emerging at a time when cloud computing resources make software easier to access and supercomputing resources make large-scale simulation studies possible. As the field develops, we anticipate that high-throughput simulation studies will allow us to rapidly explore the space of biologic possibilities, prescreen new therapeutic strategies, and even re-engineer tumor and stromal cells to bring cancer systems under control.",
+		"container-title": "JCO Clinical Cancer Informatics",
+		"DOI": "10.1200/CCI.18.00069",
+		"issue": "3",
+		"note": "_eprint: https://ascopubs.org/doi/pdf/10.1200/CCI.18.00069\nPMID: 30715927",
+		"page": "1-13",
+		"title": "A Review of Cell-Based Computational Modeling in Cancer Biology",
+		"URL": "https://ascopubs.org/doi/abs/10.1200/CCI.18.00069",
+		"author": [
+			{
+				"family": "Metzcar",
+				"given": "John"
+			},
+			{
+				"family": "Wang",
+				"given": "Yafei"
+			},
+			{
+				"family": "Heiland",
+				"given": "Randy"
+			},
+			{
+				"family": "Macklin",
+				"given": "Paul"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	}
+]
