@@ -49,6 +49,7 @@ Results using rules to increase cell-cell repulsion if there is too much pressur
       <td><img src="./physicell/p2017_30days.png" width = 200px></td>
   </tr>
 </table>
+
 Results with no rules. Rf. [this model](https://github.com/OpenVT/playground/blob/main/PhysiCell/models/csort_ics_2017.xml) using the `project` executable from the `template` sample project. 
 <p>
 
