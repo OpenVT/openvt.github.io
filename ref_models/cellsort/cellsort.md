@@ -50,7 +50,7 @@ Results using rules to increase cell-cell repulsion if there is too much pressur
   </tr>
 </table>
 
-Results with no rules. Rf. [this model](https://github.com/OpenVT/playground/blob/main/PhysiCell/models/csort_ics_2017.xml) using the `project` executable from the `template` sample project. 
+Results with no rules. Rf. [this model](https://github.com/OpenVT/playground/blob/main/PhysiCell/models/csort_ics_2017.xml) using [these cell ICs](https://github.com/OpenVT/playground/blob/main/PhysiCell/models/config/csort_OS_2017_approx.csv) and running the `project` executable from the `template` sample project. 
 <p>
 
 
