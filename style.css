@@ -472,8 +472,9 @@ body {
 }
 
 .responsive-table a {
-  color: white;
-  text-decoration: none;
+  color: #191970;
+  font-weight: bold;
+  text-decoration:none;
 }
 
 .responsive-table a:hover {
